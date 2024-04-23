@@ -1,0 +1,123 @@
+Pirates of Wynwood
+
+You're to write a basic console game with the following premises:
+
+The Enemy:
+
+Pirates are trying to raid the art galleries of Wynwood. There are Greedy Pirates (GP) and Silly Pirates (SP).
+
+The SP simply wander the Blocks of Wynwood looking for art to steal, and if they bump into you steal your art:
+
+The SP has 1 action and 1 health
+
+Meander across the game playing field
+
+No particular direction as a rule
+
+Look to steal art from the Galleries or you the Art Collector (AC)
+
+Once beside the AC they try to �steal� your art. (60% chance of success in taking any 1 item)
+
+They slow your (AC) movement by 1 action
+
+Suck the life force from a human
+
+For each round beside the human loses 1/2 a heart
+
+The GP:
+
+The GP has 2 actions and 2 health
+
+Search for a AC to steal all the art
+
+They move as rapidly as possible to the human AC
+
+Attack the AC
+
+Once within 2 squares of a human they attempt to Steal all the Art for themselves
+
+2 squares away: 65% chance of stealing a piece of art. If they successfully steal art they move next to the human
+
+1 square away: 90% chance of stealing a piece of art
+
+Once beside the Art Collector they slow the human by 2 actions
+
+Multiply
+
+For each round they steal some art, there is a 50% chance they will spawn another GP or SP
+
+Suck the life force from a human
+
+For each round beside the AC you lose one heart
+
+The Human Art Collector
+
+The Human is a Art Collector whose job is to Collect all the Art.
+
+The AC has 3 actions
+
+The AC has 5 hearts
+
+The AC can visit the Galleries and collect all the art there (the number of art pieces in the galleries is up to you)
+
+The AC starts the game with 3 pieces of art
+
+When the AC loses all hearts or all art they lose the game
+
+The AC carries weapons
+
+The Pirate Chains
+
+The Pirate Chains stuns the GP and SP for 1 round. A stunned pirate if beside a human can�t move or perform any action.
+
+The Pirate Chains has a range of 2 squares
+
+The Pirate Chains has a success rate of 30% at a range of 2 squares and 60% at a range of 1 square
+
+The Parrot of Doom (PD)
+
+The Parrot of Doom removes half the energy of the GP or SP when it succeeds on the attack
+
+The Parrot of Doom succeeds against an SP 75% of the time
+
+The Parrot of Doom succeeds against a GP 60% of the time if it is at full health and 80% if at half
+
+The Art Galleries (there are 5)
+
+While the GP and SP primarily attack the human, they also recognize Art Galleries and if within 5 squares of them, will attack them as if they were humans.
+
+A successful hit destroys the Art Gallery and steals all the art
+
+If all 5 Art Galleries are destroyed the player loses.
+
+The Board
+
+The basic board must be at least 20x20 in size. All sides are bounded in large concrete Wynwood Walls to prevent the ideas (or maybe even the human) from escaping.
+
+Movement and turns
+
+The Human and the pirates can move in any of the surrounding directions and squares up, down, left, right, and diagonally. Movement consumes one action per square.
+
+All attacks take one action.
+
+You and the pirates may not occupy the same square.
+
+That's the game basics. Please note that some of the code I'll be showing will be windows specific.
+
+Additionally
+
+Extra credit
+
+Any additional attacks for the Pirates and the Art Collector (if and only if you have successfully implemented the base game).
+
+The use of direct keyboard input vs a menu
+
+Sound
+
+Anything cool
+
+Extra credit must be DOCUMENTED at the top of your code in a comment box.
+
+Please note: this is your program, using code you find on line without attribution is plagiarism and is not tolerated. This program will use most of what we learned throughout the semester. You must have properly formatted code, proper functions and data types.
+
+This is your proof you learned the material! Have fun - be Logical!!
